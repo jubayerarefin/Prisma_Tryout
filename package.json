@@ -8,6 +8,11 @@
   },
   "main": "index.js",
   "scripts": {
+    "dev":"npx ts-node index.ts",
+    "introspect":"npx prisma introspect",
+    "migration": "npx prisma migrate save --experimental",
+    "migrate":"npx prisma migrate up --experimental",
+    "generate":"npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
